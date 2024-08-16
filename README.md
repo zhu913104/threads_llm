@@ -1,7 +1,7 @@
-# threads_llm
+# Threads_llm
 
 
-這是一組 Python 腳本，用於從 Threads API 獲取貼文丟到gpt生成和處理文章。這些腳本包括以下三個部分：
+這是一組 Python 腳本，用於從 Threads API 獲取貼文透過OpenAI生成和處理文章。這些腳本包括以下三個部分：
 
 1. `get_threads_post.py`：從 API 獲取貼文數據並保存到 JSONLines 文件中。
 2. `gen_story.py`：使用 OpenAI API 根據已有內容生成和修改故事。
@@ -71,3 +71,8 @@ python etl_post.py
 ## Reference
 - https://cowton0517.medium.com/come-on-%E4%BD%BF%E7%94%A8-threads-api-%E4%BE%86%E8%87%AA%E5%8B%95%E7%99%BC%E6%96%87%E5%90%A7-792797a68437
 - https://developers.facebook.com/docs/threads/overview
+
+
+
+## todo
+- [ ] 使用click將腳本包起來，讓使用者客製化各種參數
