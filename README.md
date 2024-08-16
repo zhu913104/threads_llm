@@ -80,3 +80,4 @@ python etl_post.py
 ## todo
 - [ ] 增加使用者可以傳入各種參數
 - [ ] 使用click將程式包裝成指令
+- [ ] 自動po到Threads
